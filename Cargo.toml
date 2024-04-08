@@ -1,0 +1,11 @@
+[package]
+name = "todo-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.115", features = ["derive"] }
+clap = "4.5.4"
+dirs = "5.0.1"
+serde_json = "1.0.115"
+chrono = { version = "0.4.37", features = ["serde"] }
